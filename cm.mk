@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := higgs2g
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/g350e/device_higgs2g.mk)
+$(call inherit-product, device/samsung/higgs2g/device_higgs2g.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := higgs2g
