@@ -60,7 +60,7 @@ TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 800
 ##BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/higgs2g/recovery/recovery_keys.c
 TARGET_RECOVERY_INITRC := device/samsung/higgs2g/recovery/recovery.rc
-BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/higgs2g/recovery/graphics.c
+
 BOARD_HAS_NO_MISC_PARTITION := true
 TARGET_RECOVERY_FSTAB := device/samsung/higgs2g/recovery.fstab
 BOARD_SUPPRESS_EMMC_WIPE := true
