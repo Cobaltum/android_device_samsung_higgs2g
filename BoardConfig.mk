@@ -30,7 +30,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 HAS_PREBUILT_KERNEL := true
 ##TARGET_KERNEL_SOURCE := kernel/samsung/higgs2g           //Not using source as of now
 ##TARGET_KERNEL_CONFIG := cyanogenmod_higgs2g_defconfig    //Using a prebuilt kernel 
-BOARD_USES_UNCOMPRESSED_BOOT := true
+#BOARD_USES_UNCOMPRESSED_BOOT := true
 TARGET_PREBUILT_KERNEL := device/samsung/higgs2g/kernel
 
 # Partitions
